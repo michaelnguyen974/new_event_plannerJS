@@ -12,5 +12,4 @@ class EventCalendar {
       return this._eventList[i];
     }
   }
-
 }
