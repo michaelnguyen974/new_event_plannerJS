@@ -7,4 +7,8 @@ class EventPlanner {
   getContent() {
     return this._content;
   }
+
+  getDate() {
+    return this._date;
+  }
 }
