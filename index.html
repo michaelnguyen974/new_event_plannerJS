@@ -7,9 +7,17 @@
   <body>
     <h1>EventPlanner</h1>
 
+    <form>
+      <input type="text" id="user_input"><br><br>
+      <input type="datetime-local" id="date_time"><br><br>
+      <button type="button" onclick="makeEvent()">Submit Event</button>
+    </form>
+
+      <ul id="upcomingevents"></ul>
+
     <script type="text/javascript" src="src/interface.js"></script>
     <script type="text/javascript" src="src/EventPlanner.js"></script>
-    <script type="text/javascript" src="spec/EventPlannerSpec.js"></script>
-    <script type="text/javascript" src="lib/testingframework.js"></script>
+    <script type="text/javascript" src="src/EventCalendar.js"></script>
+
   </body>
 </html>
