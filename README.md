@@ -1,4 +1,5 @@
-# :calendar: *Event Planner App built in JavaScript* :calendar:
+:calendar: *Event Planner App built in JavaScript* :calendar:
+------
 
 :clipboard: User Stories
 ------
