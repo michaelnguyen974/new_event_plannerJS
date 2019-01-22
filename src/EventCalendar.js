@@ -4,8 +4,8 @@ class EventCalendar {
   }
 
   pushEvent(event) {
-  this._eventList.push(event);
-}
+    this._eventList.push(event);
+  }
 
   showEvents() {
     for(var i = 0; i < this._eventList.length; i++) {
