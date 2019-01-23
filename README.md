@@ -25,7 +25,7 @@ I want to see the events in chronological order.
 2. Change directory `cd EventPlanner`
 3. Open index.html to run it locally
 
-Technologies I used:
+:construction: Technologies I used:
 -----
 * JavaScript - programming language;
 * Marble Testing Framework - Testing framework built in pair programming by:
