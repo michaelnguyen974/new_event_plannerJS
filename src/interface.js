@@ -1,19 +1,27 @@
-let full_event;
-let eventInCalendar;
 
+window.addEventListener('load', ()=>{
+
+let calendar = new EventCalendar();
+let button = document.getElementById('event_create_button')
+
+button.addEventListener('click', ()=> {
+  makeEvent();
+});
+
+//creates event & push to a calendar
 function makeEvent() {
   let content = document.getElementById('user_input').value
   let datetime = document.getElementById('date_time').value
   let event = new EventPlanner(content, datetime);
-  full_event = (`Event: ${event.getContent()} - Starting time: ${event.getDate()}`)
-  pushInCalendar();
-}
+  calendar.pushEvent(event);
+  displayEvent()
+  }
 
-function pushInCalendar() {
-  let calendar = new EventCalendar();
-  calendar.pushEvent(full_event);
-  eventInCalendar = document.createTextNode(calendar.showEvents());
-  let newlist = document.createElement('li')
-  newlist.appendChild(eventInCalendar)
-  document.getElementById('upcomingevents').prepend(newlist)
-}
+  const displayEvent = ()=> {
+    let eventlistings = document.getElementById('eventlistings');
+    events = calendar.displayEvent();
+    eventlistings.innerText = " ";
+    eventlistings.appendChild(events);
+  }
+
+})

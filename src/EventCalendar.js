@@ -7,9 +7,20 @@ class EventCalendar {
     this._eventList.push(event);
   }
 
-  showEvents() {
-    for(var i = 0; i < this._eventList.length; i++) {
-      return this._eventList[i];
-    }
+  upComingEvents(){
+    let upcoming = [];
+    this._eventList.forEach((event)=>{
+      upcoming.push(event)
+    })
+    return upcoming
+  }
+
+  displayEvent(){
+    let div = document.createElement('div');
+    this.upComingEvents().forEach((e)=>{
+      let eventHTML = e.displayAnEvent();
+      div.appendChild(eventHTML);
+    })
+    return div
   }
 }

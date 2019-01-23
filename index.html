@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="" dir="ltr">
   <head>
+    <script type="text/javascript" src="src/EventCalendar.js"></script>
+    <script type="text/javascript" src="src/EventPlanner.js"></script>
+    <script type="text/javascript" src="src/interface.js"></script>
     <meta charset="utf-8">
     <title>EventPlanner</title>
   </head>
   <body>
     <h1>EventPlanner</h1>
-
-    <form>
+    <div id= "form">
       <input type="text" id="user_input"><br><br>
       <input type="datetime-local" id="date_time"><br><br>
-      <button type="button" onclick="makeEvent()">Submit Event</button>
-    </form>
-
-      <ul id="upcomingevents"></ul>
-
-    <script type="text/javascript" src="src/interface.js"></script>
-    <script type="text/javascript" src="src/EventPlanner.js"></script>
-    <script type="text/javascript" src="src/EventCalendar.js"></script>
+      <button id="event_create_button" type="button">Submit Event</button>
+    </div>
+    <div id="eventlistings">
+    </div>
 
   </body>
 </html>

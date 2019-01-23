@@ -4,6 +4,12 @@ class EventPlanner {
     this._date = date || null
   }
 
+  displayAnEvent(){
+    let div = document.createElement('div')
+    div.innerText = `${this._content} happening on: ${this._date}`
+    return div
+  }
+
   getContent() {
     return this._content;
   }
