@@ -44,8 +44,6 @@ In order for others to use the app, it should be deployed.
 
 ## :scroll: License
 
-[license] © [Emanuele Gorga][website]
+© [Emanuele Gorga][website]
 
-
-[license]: http://showalicense.com/?fullname=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica%40gmail.com%3E%20(https%3A%2F%2Fionicabizau.net)&year=2016#license-mit
 [website]: https://www.linkedin.com/in/emanuele-gorga-18a6a585/
