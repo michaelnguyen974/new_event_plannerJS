@@ -32,8 +32,8 @@ In order for others to use the app, it should be deployed.
 :memo: Getting started
 ------
 
-1. Clone this repo `git@github.com:michaelnguyen974/event_planner_JS.git`
-2. Change directory `cd EventPlanner`
+1. Clone this repo `git@github.com:michaelnguyen974/new_event_plannerJS.git`
+2. Change directory `cd Event-Planner`
 3. Open index.html to run it locally
 
 :construction: Technologies I used
