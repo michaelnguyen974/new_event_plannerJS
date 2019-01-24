@@ -1,6 +1,6 @@
 :calendar: *Event Planner App built in JavaScript* :calendar:
 ------
-
+Fully deployed aop 
 :clipboard: User Stories
 ------
 
@@ -35,12 +35,12 @@ In order for others to use the app, it should be deployed.
 1. Clone this repo `git@github.com:michaelnguyen974/new_event_plannerJS.git`
 2. Change directory `cd Event-Planner`
 3. Open index.html to run it locally
+4. Visit the app as it has been deployed! MikeEventPlanner.surge.sh 
 
 :construction: Technologies I used
 -----
 * JavaScript - programming language;
-* Marble Testing Framework - Testing framework built in pair programming by:
-Michael Nguyen
+* Custom made Testing Framework 
 
 ## :scroll: License
 
