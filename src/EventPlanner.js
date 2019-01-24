@@ -17,4 +17,8 @@ class EventPlanner {
   getDate() {
     return this._date;
   }
+
+  getDateObject() {
+    return Date.parse(this._date);
+  }
 }

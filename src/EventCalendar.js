@@ -9,11 +9,16 @@ class EventCalendar {
 
   upComingEvents(){
     let upcoming = [];
-    this._eventList.forEach((event)=>{
-      upcoming.push(event)
+    this._eventList.forEach((event) => {
+      let now = new Date();
+      let eventDate = event.getDateObject();
+      if (eventDate > now) {
+        upcoming.push(event);
+      }
     })
     return upcoming
   }
+  
 
   displayEvent(){
     let div = document.createElement('div');

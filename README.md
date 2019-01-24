@@ -32,7 +32,7 @@ In order for others to use the app, it should be deployed.
 :memo: Getting started
 ------
 
-1. Clone this repo `git@github.com:emanuelegorga/Event-Planner.git`
+1. Clone this repo `git@github.com:michaelnguyen974/event_planner_JS.git`
 2. Change directory `cd EventPlanner`
 3. Open index.html to run it locally
 
@@ -40,10 +40,8 @@ In order for others to use the app, it should be deployed.
 -----
 * JavaScript - programming language;
 * Marble Testing Framework - Testing framework built in pair programming by:
-[Emanuele Gorga][website] and Adam Lodowski.
+Michael Nguyen
 
 ## :scroll: License
 
-© [Emanuele Gorga][website]
-
-[website]: https://www.linkedin.com/in/emanuele-gorga-18a6a585/
+[website]: https://www.linkedin.com/in/michael-nguyen-71101610a/
