@@ -1,5 +1,5 @@
 class EventCalendar {
-  constructor(eventList = null) {
+  constructor() {
     this._eventList = [];
   }
 
@@ -22,10 +22,20 @@ class EventCalendar {
 
   displayEvent(){
     let div = document.createElement('div');
-    this.upComingEvents().forEach((e)=>{
+    this.sortUpcomingEvents().forEach((e)=>{
       let eventHTML = e.displayAnEvent();
       div.appendChild(eventHTML);
     })
     return div
+  }
+
+  sortUpcomingEvents(){
+    let result = this.upComingEvents()
+    result.sort((e1, e2) => {
+      let date1 = e1.getDateObject()
+      let date2 = e2.getDateObject()
+      return date1 - date2;
+    });
+    return result;
   }
 }

@@ -13,7 +13,7 @@ describe('EventPlanner', function() {
 
   it('checks for the date', function() {
     let eventPlanner3 = new EventPlanner('content', '22/01/2019')
-    expectToEqual('22/01/2019', eventPlanner3.getDate());
+    expectToEqual('22/01/2019', eventPlanner3._date);
   });
 
 });

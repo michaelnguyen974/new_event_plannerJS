@@ -11,7 +11,7 @@ describe('EventCalendar', function() {
 
   it('eventCalendar is able to show list of the events', function() {
     eventCalendar.pushEvent(eventPlanner)
-    expectToEqual(eventPlanner, eventCalendar.showEvents());
+    expectToEqual(eventPlanner, eventCalendar.displayEvent());
   });
 
 });
