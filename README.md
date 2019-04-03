@@ -1,6 +1,6 @@
 :calendar: *Event Planner App built in JavaScript* :calendar:
 ------
-Fully deployed aop 
+Fully deployed app 
 :clipboard: User Stories
 ------
 
